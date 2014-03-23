@@ -1,7 +1,9 @@
 {
   "name": "NodePong",
   "version": "1.0.0",
+  "author": "Benton Rochester imbenton.com",
   "private": true,
+  "main": "app.js",
   "scripts": {
     "start": "nodePong"
   },
@@ -13,6 +15,10 @@
     "mongoose": "*",
     "socket.io": "*",
     "connect-mongo": "*"
-    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rochestb/Websocket-Pong.git"
+   },
 
 } 
