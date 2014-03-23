@@ -8,17 +8,20 @@
     "start": "nodePong"
   },
   "dependencies": {
-    "express": "3.1.0",
+    "express": "~3.1.0",
     "node-static": "*",
     "jade": "*",
     "stylus": "*",
     "mongoose": "*",
     "socket.io": "*",
-    "connect-mongo": "*"
+    "connect-mongo": "*",
+    "logfmt": "~1.0.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/rochestb/Websocket-Pong.git"
-   },
-
-} 
+  },
+  "engines": {
+    "node": "*"
+  }
+}
