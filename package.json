@@ -28,5 +28,16 @@
   "engines": {
     "node": "*",
     "npm": "1.1.x"
-  }
+  },
+  "description": "This is a template to start off the structure for every repository. The branches from here may contain boilerplate code for starting off specific types of projects",
+  "bugs": {
+    "url": "https://github.com/rochestb/Websocket-Pong/issues"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "node pong"
+  ],
+  "license": "BSD"
 }
