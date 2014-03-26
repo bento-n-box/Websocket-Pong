@@ -10,12 +10,14 @@ var express = require('express')
   , app = express()
   , mongoose =  require('mongoose')
   , mongoStore = require('connect-mongo')(express)
+  , logfmt = require("logfmt")
   ;
 
 var app = express();
+app.use(logfmt.requestLogger());
 
 app.configure(function(){
-  app.set('port', process.env.PORT || 3000);
+  app.set('port', process.env.PORT || 5000);
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
   app.use(express.favicon());
