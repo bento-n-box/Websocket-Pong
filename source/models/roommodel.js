@@ -1,6 +1,5 @@
 var mongoose = require('mongoose');
 	RoomSchema = mongoose.Schema({
-    collection : 'nodePong',
 		title: String,
 		type: String
 	}),
