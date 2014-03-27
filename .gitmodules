@@ -1,3 +1,0 @@
-[submodule "config/deploy"]
-	path = config/deploy
-	url = git@github.com:cpbtechnology/US-CPB-Deploy.git
