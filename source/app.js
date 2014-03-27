@@ -33,9 +33,12 @@ app.configure(function(){
   app.locals.title ="NodePong";
 });
 
+var mongoUri = process.env.MONGOLAB_URI ||
+    process.env.MONGOHQ_URL ||
+      'mongodb://localhost/nodePong';
 app.configure('development', function(){
   app.use(express.errorHandler());
-  mongoose.connect('mongodb://localhost/nodePong');
+  mongoose.connect(mongoUri);
 });
 
 
